@@ -1,0 +1,42 @@
+.wrapper{
+  display: flex;
+}
+
+/** サイドバー **/
+
+.side-wrapper{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+.side-header{
+  height: 100px;
+  padding: 0 20px;
+}
+.side-top{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+/** メインバー **/
+
+.main-wrapper{
+  height: 100vh;
+  width: calc(100vh - 300px);
+  background-color: #FFFFFF;
+}
+.main-header{
+  height: 100px;
+  padding: 0 40px;
+}
+.main-top{
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+}
+.main-footer{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
